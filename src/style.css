@@ -1,5 +1,9 @@
 * {
   font-family: "Kanit", sans-serif, "Rock Salt", cursive, "Times New Roman";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: static;
 }
 
 h1 {
