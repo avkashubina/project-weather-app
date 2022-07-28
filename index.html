@@ -20,62 +20,60 @@
     />
   </head>
   <body>
-    <input type="text" placeholder="Enter your city" />
-    <input type="submit" value="Search" />
-    <input type="button" value="Current position" />
-    <div class="container">
+    <div class="weather">
+      <input type="text" placeholder="Enter your city" />
+      <input type="submit" value="Search" />
+      <input type="button" value="Current position" />
       <div class="row">
-        <div class="col-3">
-          <h3 class="city">Kyiv</h3>
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="cloudy"
-          />
-        </div>
-        <div class="col-3">
+        <div class="main">
+          <div class="city-icon">
+            <h3 class="city">Kyiv</h3>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="cloudy"
+            />
+          </div>
           <h1 class="degree">23˚C | ˚F</h1>
-        </div>
-        <div class="col-4">
-          <p class="date">26 July | 19:27</p>
           <ul>
-            <li class="weather">Clean sky</li>
+            <li class="date">26 July | 19:27</li>
+            <li class="sky">Clean sky</li>
             <li class="humidity">59%</li>
             <li class="wind">2 km/h</li>
           </ul>
         </div>
+        <script src="src/javascript.js"></script>
       </div>
-      <script src="src/javascript.js"></script>
-    </div>
-    <div class="future-weather">
-      <div class="day">
-        <ul>
-          <li>Sun</li>
-          <li>23˚C</li>
-        </ul>
-      </div>
-      <div class="day">
-        <ul>
-          <li>Mon</li>
-          <li>23˚C</li>
-        </ul>
-      </div>
-      <div class="day">
-        <ul>
-          <li>Tue</li>
-          <li>23˚C</li>
-        </ul>
-      </div>
-      <div class="day">
-        <ul>
-          <li>Wed</li>
-          <li>23˚C</li>
-        </ul>
-      </div>
-      <div class="day">
-        <ul>
-          <li>Thu</li>
-          <li>23˚C</li>
-        </ul>
+      <div class="future-weather">
+        <div class="day">
+          <ul>
+            <li>Sun</li>
+            <li>23˚C</li>
+          </ul>
+        </div>
+        <div class="day">
+          <ul>
+            <li>Mon</li>
+            <li>23˚C</li>
+          </ul>
+        </div>
+        <div class="day">
+          <ul>
+            <li>Tue</li>
+            <li>23˚C</li>
+          </ul>
+        </div>
+        <div class="day">
+          <ul>
+            <li>Wed</li>
+            <li>23˚C</li>
+          </ul>
+        </div>
+        <div class="day">
+          <ul>
+            <li>Thu</li>
+            <li>23˚C</li>
+          </ul>
+        </div>
       </div>
     </div>
     <p>
