@@ -12,3 +12,7 @@ h1 {
 ul {
   list-style: none;
 }
+.future-weather {
+  display: flex;
+  flex-direction: row;
+}
