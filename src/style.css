@@ -27,7 +27,7 @@
   flex-direction: row;
   padding: 14px;
 }
-.city {
+#city {
   display: block;
   font-size: 40px;
 }
@@ -46,11 +46,11 @@ h1 {
 
 .info {
   position: relative;
-  top: 12%;
+  top: 5%;
   left: 10%;
 }
 
-.date {
+#date {
   margin-bottom: 15px;
 }
 

@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Rock+Salt&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather">
@@ -27,18 +28,18 @@
       <div class="row">
         <div class="main">
           <div class="city-and-icon">
-            <h3 class="city">Kyiv</h3>
+            <h3 id="city"></h3>
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="cloudy"
             />
           </div>
-          <h1 class="degree">23˚C | ˚F</h1>
+          <h1 class="degree"><span id="degree"></span>˚C | ˚F</h1>
           <ul class="info">
-            <li class="date">26 July | 19:27</li>
-            <li class="sky">Clean sky</li>
-            <li class="humidity">Humidity: 59%</li>
-            <li class="wind">Wind: 2 km/h</li>
+            <li id="date"></li>
+            <li id="sky"></li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
           </ul>
         </div>
         <script src="src/javascript.js"></script>
