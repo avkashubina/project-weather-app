@@ -32,6 +32,10 @@
   font-size: 40px;
 }
 
+#icon {
+  width: 90px;
+}
+
 .degree {
   position: relative;
   margin: 0 30px 0 30px;
