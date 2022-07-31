@@ -87,3 +87,9 @@ ul {
   text-decoration: none;
   color: black;
 }
+
+p {
+  position: relative;
+  margin-top: 10px;
+  left: 48.5%;
+}
