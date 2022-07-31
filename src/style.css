@@ -6,13 +6,25 @@
   position: static;
 }
 
+form {
+  display: inline-block;
+}
+
+.head {
+  margin-top: 13px;
+}
+
 .enter-city {
   width: 300px;
 }
 
+.main {
+  max-height: 150px;
+}
+
 .weather {
-  min-height: 20px;
   min-width: 20px;
+  min-height: 20px;
   max-width: 700px;
   display: block;
   border: 1px solid;
@@ -22,36 +34,32 @@
   padding: 10px 20px;
 }
 
-.main {
-  display: flex;
-  flex-direction: row;
-  padding: 14px;
-}
 #city {
-  display: block;
   font-size: 40px;
 }
 
 #icon {
-  width: 90px;
+  width: 75px;
 }
 
 .degree {
   position: relative;
   margin: 0 30px 0 30px;
-  top: 45%;
+  top: -50%;
+  left: 15%;
   font-weight: 300;
   font-size: 57px;
 }
 
-h1 {
-  color: rebeccapurple;
+#value {
+  font-size: 20px;
+  top: -10%;
 }
 
 .info {
   position: relative;
-  top: 5%;
-  left: 10%;
+  top: -129%;
+  left: 50%;
 }
 
 #date {

@@ -60,5 +60,7 @@ function inputCity(event) {
   searchCity(cityInputElement.value);
 }
 
+searchCity("Kyiv");
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", inputCity);

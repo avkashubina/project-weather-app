@@ -33,21 +33,28 @@
         <input type="submit" value="Search" />
         <input type="button" value="Current position 📍" />
       </form>
-      <div class="row">
-        <div class="main">
-          <div class="city-and-icon">
-            <h3 id="city">Kyiv</h3>
-            <img src="" alt="cloudy" id="icon" />
+      <div class="head">
+        <div class="row">
+          <div class="main">
+            <div class="city-and-icon">
+              <h3 id="city">Kyiv</h3>
+              <img src="" alt="cloudy" id="icon" />
+            </div>
+            <h1 class="degree">
+              <span id="degree"></span
+              ><span id="value"
+                ><a href="" class="celsius-value">˚C</a> |
+                <a href="" class="fahrenheit-value">˚F</a></span
+              >
+            </h1>
+            <ul class="info">
+              <li id="date"></li>
+              <li id="sky"></li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
           </div>
-          <h1 class="degree"><span id="degree"></span>˚C | ˚F</h1>
-          <ul class="info">
-            <li id="date"></li>
-            <li id="sky"></li>
-            <li>Humidity: <span id="humidity"></span>%</li>
-            <li>Wind: <span id="wind"></span> km/h</li>
-          </ul>
         </div>
-        <script src="src/javascript.js"></script>
       </div>
       <div class="future-weather">
         <div class="day">
@@ -90,5 +97,6 @@
         >open code</a
       >
     </p>
+    <script src="src/javascript.js"></script>
   </body>
 </html>
