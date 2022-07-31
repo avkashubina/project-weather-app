@@ -45,6 +45,7 @@ function showInfo(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}.png`
   );
+  celsius = Math.round(response.data.main.temp);
 }
 
 function searchCity(city) {
@@ -60,7 +61,35 @@ function inputCity(event) {
   searchCity(cityInputElement.value);
 }
 
-searchCity("Kyiv");
+function displayFahrenheit(event) {
+  event.preventDefault();
+  let fahrenheitValue = document.querySelector("#degree");
+
+  celsiusValue.classList.remove("active");
+  fahrenheitValue.classList.add("active");
+
+  let calculateFahrenheit = (celsius * 9) / 5 + 32;
+  fahrenheitValue.innerHTML = Math.round(`${calculateFahrenheit}`);
+}
+
+function displayCelsius(event) {
+  event.preventDefault();
+  let celsiusValue = document.querySelector("#degree");
+  celsiusValue.innerHTML = Math.round(celsius);
+
+  celsiusValue.classList.add("active");
+  fahrenheitValue.classList.remove("active");
+}
+
+let celsius = null;
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", inputCity);
+
+let fahrenheitValue = document.querySelector("#fahrenheit-value");
+fahrenheitValue.addEventListener("click", displayFahrenheit);
+
+let celsiusValue = document.querySelector("#celsius-value");
+celsiusValue.addEventListener("click", displayCelsius);
+
+searchCity("Kyiv");
