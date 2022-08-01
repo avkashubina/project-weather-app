@@ -91,10 +91,12 @@ ul {
   background-color: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
   border-color: rgb(43, 99, 127, 0.1);
+  transition: all 200ms ease-in-out;
 }
 
 .day:hover {
   background-color: rgb(57, 66, 70);
+  transform: scale(1.1);
 }
 
 .other-color {
@@ -105,6 +107,7 @@ ul {
   text-decoration: none;
   cursor: default;
   color: rgb(210, 219, 222);
+  transition: all 200ms ease-in-out;
 }
 
 .for-hover:hover {
