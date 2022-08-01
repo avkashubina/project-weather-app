@@ -75,6 +75,27 @@ ul {
   color: rgb(182, 194, 201);
 }
 
+.day-of-week {
+  position: relative;
+  animation-name: show-text;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes show-text {
+  0% {
+    bottom: -90%;
+  }
+  90% {
+    bottom: 10%;
+  }
+  100% {
+    bottom: 0%;
+  }
+}
+
 .future-weather {
   display: flex;
   flex-direction: row;
