@@ -87,7 +87,7 @@ ul {
 .day {
   border: 0.1px solid;
   border-radius: 3px;
-  padding: 0 20px 45px 20px;
+  padding: 5px 20px 45px 20px;
   background-color: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
   border-color: rgb(43, 99, 127, 0.1);
@@ -101,19 +101,19 @@ ul {
   background-color: rgb(73, 78, 80);
 }
 
-a {
+.for-hover {
   text-decoration: none;
   cursor: default;
   color: rgb(210, 219, 222);
 }
 
-a:hover {
+.for-hover:hover {
   text-decoration: none;
   color: rgb(161, 167, 170);
 }
 
 p {
   position: relative;
-  margin-top: 10px;
-  left: 48.5%;
+  margin-top: 15px;
+  left: 41.5%;
 }
