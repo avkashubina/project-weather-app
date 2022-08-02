@@ -84,6 +84,7 @@ ul {
   animation-timing-function: ease-in-out;
 }
 
+/*
 @keyframes show-text {
   0% {
     bottom: -90%;
@@ -101,7 +102,8 @@ ul {
   100% {
     bottom: 0%;
   }
-}
+} 
+*/
 
 .future-weather {
   display: flex;
@@ -120,6 +122,7 @@ ul {
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
   border-color: rgb(43, 99, 127, 0.1);
   transition: all 200ms ease-in-out;
+  text-align: center;
 }
 
 .day:hover {
@@ -129,6 +132,10 @@ ul {
 
 .other-color {
   background-color: rgb(73, 78, 80);
+}
+
+.name-of-day {
+  font-size: 20px;
 }
 
 .for-hover {
