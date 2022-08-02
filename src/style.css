@@ -87,6 +87,13 @@ ul {
 @keyframes show-text {
   0% {
     bottom: -90%;
+    opacity: 0%;
+  }
+  40% {
+    opacity: 30%;
+  }
+  70% {
+    opacity: 100%;
   }
   90% {
     bottom: 10%;
