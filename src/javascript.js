@@ -111,7 +111,6 @@ function displayForecast(response) {
         `<div id="forecast">
         <div class="day">
           <ul class="day-of-week">
-          ${index}
             <li class="name-of-day">${formatCurrentForcast(forecast.dt)}</li>
             <li class="weather-forecast-max">${Math.round(
               forecast.temp.max
