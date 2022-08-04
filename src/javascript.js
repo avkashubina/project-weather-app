@@ -103,7 +103,7 @@ function displayForecast(response) {
             )}˚</li>
             <li><img src="http://openweathermap.org/img/wn/${
               forecast.weather[0].icon
-            }@2x.png" alt="" width="50"></li>
+            }@2x.png" alt="" width="50" id="icon"></li>
           </ul>
           </div>
           </div>

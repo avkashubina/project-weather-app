@@ -111,13 +111,13 @@ ul {
   justify-content: space-between;
   margin: 0;
   margin-left: 5px;
-  align-self: stretch;
 }
 
 .day {
   border: 0.1px solid;
   border-radius: 3px;
-  padding: 5px 20px 45px 20px;
+  padding-top: 5px;
+  padding-bottom: -70px;
   background-color: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
   border-color: rgb(43, 99, 127, 0.1);
