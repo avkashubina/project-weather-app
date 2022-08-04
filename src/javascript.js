@@ -81,6 +81,31 @@ function displayCelsius(event) {
   fahrenheitValue.classList.remove("active");
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+
+  let forecastHTML = `<div class="future-weather">`;
+
+  days.forEach(function (days) {
+    forecastHTML =
+      forecastHTML +
+      `<div id="forecast">
+        <div class="day">
+          <ul class="day-of-week">
+            <li class="name-of-day">${days}</li>
+            <li>23˚C</li>
+          </ul>
+          </div>
+          </div></div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+
+  forecastElement.innerHTML = forecastHTML;
+}
+
 let celsius = null;
 
 let form = document.querySelector("#search-form");
@@ -93,3 +118,4 @@ let celsiusValue = document.querySelector("#celsius-value");
 celsiusValue.addEventListener("click", displayCelsius);
 
 searchCity("Kyiv");
+displayForecast();
