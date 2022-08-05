@@ -14,10 +14,11 @@ form {
   margin-top: 13px;
 }
 
+.head {
+  margin-top: 13px;
+}
+
 #search {
-  position: absolute;
-  left: 54%;
-  top: 21px;
   background: rgb(85, 91, 94);
   border-color: rgb(43, 99, 127, 0.1);
   -webkit-border-radius: 5px;
@@ -25,12 +26,11 @@ form {
   border-radius: 5px;
   float: left;
   color: rgb(210, 219, 222);
+  margin-right: 5px;
+  margin-left: 3px;
 }
 
 #button {
-  position: absolute;
-  left: 61.5%;
-  top: 21px;
   background: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
   border-color: rgb(43, 99, 127, 0.1);
@@ -41,12 +41,8 @@ form {
   color: rgb(210, 219, 222);
 }
 
-.head {
-  margin-top: 13px;
-}
-
 .enter-city {
-  width: 360px;
+  width: 200px;
   height: 30px;
   background: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
@@ -70,9 +66,8 @@ form {
 }
 
 .weather {
-  min-width: 20px;
-  min-height: 20px;
-  max-width: 560px;
+  max-width: 600px;
+  min-width: 600px;
   display: block;
   border: 1px solid;
   border-radius: 3px;
@@ -189,9 +184,9 @@ ul {
 }
 
 p {
-  position: relative;
-  margin-top: 15px;
-  left: 40.5%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 210px;
 }
 a {
   text-decoration: none;
