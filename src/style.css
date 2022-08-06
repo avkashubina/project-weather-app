@@ -14,10 +14,6 @@ form {
   margin-top: 13px;
 }
 
-.head {
-  margin-top: 13px;
-}
-
 #search {
   background: rgb(85, 91, 94);
   border-color: rgb(43, 99, 127, 0.1);
@@ -27,7 +23,7 @@ form {
   float: left;
   color: rgb(210, 219, 222);
   margin-right: 5px;
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 #button {
@@ -39,10 +35,11 @@ form {
   border-radius: 5px;
   float: left;
   color: rgb(210, 219, 222);
+  margin-left: 38px;
 }
 
 .enter-city {
-  width: 200px;
+  width: 700px;
   height: 30px;
   background: rgb(85, 91, 94);
   box-shadow: 1px 1px 20px 1px rgb(5, 9, 13, 0.4);
